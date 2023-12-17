@@ -1,0 +1,207 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    
+}
+body{
+    background-image: url("assets/bkground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.signinCard{
+    width: min-content;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 30px;
+    width: 450px;
+    height: 650px;
+    position: absolute;
+    right: 180px;
+    padding: 50px;
+    top: 100px;
+}
+
+p span{
+    color : #779341;
+    font-weight: 700;
+    font-size: 21px;
+}
+
+.noAccount{
+    position: relative;
+    font-size: 13px;
+    display: inline;
+    color: #8D8D8D;
+    width: 50px;
+    
+
+}
+.noAcc{
+    
+    width: 200px;
+    position: relative;
+    left: 380px;
+}
+.noAccount span{
+    display: inline;
+    font-size: 13px;
+    
+}
+
+
+h1{
+    font-family:'Poppins', sans-serif;
+    font-size: 55pt;
+}
+form span{
+    font-size: 16px;
+    padding-bottom: 16px;
+}
+
+.googleSignin{
+    background-color: #E9F1FF;
+    border: 0px;
+    border-radius: 9px;
+    height: 55px;
+    width: 298px;
+}
+
+.googleSignin:hover{
+    background-color: #c8dcff;
+    border: 0px;
+    border-radius: 9px;
+    height: 55px;
+    width: 298px;
+}
+
+
+.googleSignin span{
+    position: relative;
+    bottom: 8px;
+    font-size: 16px;
+    color: #4285F4;
+    padding-left: 20px;
+    height: 55px;
+}
+
+div p{
+    width: 400px;
+}
+
+div div div{
+    position: relative;
+
+    width: 500px;
+  
+}
+
+div div div p {
+
+    position: relative;
+   left: 0px;
+    
+}
+
+.facebookSignin{
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    align-content: center;
+    background-color: transparent;
+    border: 0px;
+    padding-left: 45px;
+}
+.appleSignin{
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    align-content: center;
+    background-color: transparent;
+    border: 0px;
+    padding-left: 70px;
+}
+
+#username{
+    height: 45px;
+    width: 430px;
+    border:1px solid #808080  ;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+#username:focus{
+    height: 45px;
+    width: 430px;
+    border-color: #4285F4;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+#password{
+    height: 45px;
+    width: 430px;
+    border:1px solid #4285F4  ;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+form button{
+    position: relative;
+    left: 310px;
+    margin-top: 20px;
+    background-color: transparent;
+    border: 0px;
+    color: #4285F4;
+    font-size: 13pt;
+}
+::placeholder{
+    position: relative;
+    color: #808080;
+    font-size: 10pt;
+    bottom: 5px;
+}
+
+#submet{
+    position: relative;
+    left: 220px;
+    margin-top: 20px;
+    background-color:#779341;
+    border: 0px;
+    color: #fff;
+    font-size:16pt;
+    width: 236px;
+    height: 60px;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+#submet:hover{
+    position: relative;
+    left: 220px;
+    margin-top: 20px;
+    background-color:#94b651;
+    border: 0px;
+    color: #fff;
+    font-size:16pt;
+    width: 236px;
+    height: 60px;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+.welcom{
+    display: inline;
+}
+
+
+
+br{
+    width: 0px;
+}
